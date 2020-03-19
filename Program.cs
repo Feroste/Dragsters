@@ -1,7 +1,4 @@
 ﻿// Dragsters
-// Author: Antonio Haner
-// Date: 2-25-19
-// CIS-II
 // 
 // A simulation that takes 3 racers acceleration and plots them over time
 // to see who will win and how fast
