@@ -259,9 +259,13 @@ namespace Dragracer
             {
                 Name = name;
                 if (acceleration >= 0)
+                {
                     Acceleration = acceleration;
+                }
                 else
+                {
                     throw new Exception("Acceleration Cannot be less than 0");
+                }
             }
 
             // Variables
@@ -278,7 +282,10 @@ namespace Dragracer
                     if (distance > 100) distance = 100;
                     return distance;
                 }
+                else
+                {
                 throw new Exception("Time Cannot be less than 0");
+                }
             }
         }
     }
